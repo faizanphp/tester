@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: html
+spec:
+  containers:
+  - name: html
+    image: faizanphp/test:latest
+    ports:
+    - containerPort: 80
+
+    
